@@ -52,6 +52,9 @@ nav a:hover {
   margin: 0;
   padding: 0;
   background-color: rgba(4, 15, 22, 1);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
 }
 
 .featured li {
@@ -78,4 +81,11 @@ nav a:hover {
 
 .featured li p {
   margin: 0.5rem 0 0 0;
+}
+
+.content {
+  margin-top: 20px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 3fr 1fr;
 }
